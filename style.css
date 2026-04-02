@@ -5,7 +5,7 @@
 :root {
     --text: rgba(105, 105, 113, 1);
     --grey-text: rgba(155, 155, 166, 1);
-    --white: #fffbcc;
+    --white: rgba(255, 255, 255, 1);
     --purple-01: rgba(117, 87, 227, 1);
     --purple-02: rgba(152, 158, 245, 1);
     --purple-03: rgba(200, 204, 255, 1);
@@ -628,7 +628,7 @@
     :root {
         --text: rgba(105, 105, 113, 1);
         --grey-text: rgba(155, 155, 166, 1);
-        --white: #fffbcc;
+        --white: rgba(255, 255, 255, 1);
         --purple-01: rgba(117, 87, 227, 1);
         --purple-02: rgba(152, 158, 245, 1);
         --purple-03: rgba(200, 204, 255, 1);
@@ -787,7 +787,7 @@
         width: 100%;
         min-height: 528px;
         height: auto;
-        background-color: var(--white);
+        background-color: #ffffff;
     }
 
     .jampa-mobile .frame {
@@ -1216,7 +1216,7 @@
         padding: 32px;
         position: relative;
         flex: 0 0 auto;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -1364,7 +1364,7 @@
         align-items: flex-end;
         position: relative;
         flex: 0 0 auto;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 8px;
     }
 
@@ -1603,7 +1603,7 @@
         gap: 8px;
         padding: 15px 24px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 52px;
         box-shadow: var(--shadow-01);
     }
@@ -2827,7 +2827,7 @@
     :root {
         --text: rgba(105, 105, 113, 1);
         --grey-text: rgba(155, 155, 166, 1);
-        --white: #fffbcc;
+        --white: rgba(255, 255, 255, 1);
         --purple-01: rgba(117, 87, 227, 1);
         --purple-02: rgba(152, 158, 245, 1);
         --purple-03: rgba(200, 204, 255, 1);
@@ -4046,7 +4046,7 @@
         min-height: 631px;
         height: auto;
         padding-bottom: 80px;
-        background-color: var(--white);
+        background-color: #ffffff;
     }
 
     .jampa-web .frame {
@@ -4536,7 +4536,7 @@
         gap: 19px;
         padding: 32px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -4601,7 +4601,7 @@
         gap: 19px;
         padding: 32px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -4615,7 +4615,7 @@
         gap: 19px;
         padding: 32px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -4629,7 +4629,7 @@
         gap: 19px;
         padding: 32px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -4643,7 +4643,7 @@
         gap: 19px;
         padding: 32px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 30px;
         box-shadow: var(--card);
     }
@@ -4731,7 +4731,7 @@
         position: absolute;
         top: 378px;
         left: calc(50.00% - 534px);
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 24px;
     }
 
@@ -4968,7 +4968,7 @@
         gap: 8px;
         padding: 15px 54px;
         position: relative;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 52px;
         box-shadow: var(--shadow-01);
     }
@@ -5215,7 +5215,7 @@
         align-self: stretch;
         width: 100%;
         flex: 0 0 auto;
-        background-color: var(--white);
+        background-color: #ffffff;
         border-radius: 8px;
         border: 1px solid;
         border-color: var(--light-grey);
