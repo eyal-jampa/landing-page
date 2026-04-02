@@ -4054,14 +4054,14 @@
 
     .jampa-web .title {
         position: relative;
-        width: 641px;
+        width: 1203px;
         margin-top: -1.00px;
         font-family: "Rubik", Helvetica;
         font-weight: 500;
         color: var(--purple-01);
-        font-size: 90px;
+        font-size: 80px;
         text-align: center;
-        letter-spacing: -1.80px;
+        letter-spacing: -1.60px;
         line-height: 86px;
         direction: rtl;
     }
