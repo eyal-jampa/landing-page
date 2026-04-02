@@ -2976,6 +2976,7 @@
     body {
         margin: 0px;
         height: 100%;
+        overflow-x: hidden;
     }
 
     /* a blue color as a generic focus style */
@@ -2996,10 +2997,12 @@
         background-color: var(--white);
         padding: 0px 140px;
         width: 100%;
+        max-width: 1920px;
         margin: 0 auto;
         box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.10);
         position: relative;
         z-index: 10;
+        box-sizing: border-box;
     }
 
     .header .frame {
@@ -4031,6 +4034,9 @@
         position: relative;
         background-color: #edeefa;
         overflow: hidden;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
     }
 
     .jampa-web .head-baner {
@@ -4046,7 +4052,7 @@
     .jampa-web .frame {
         display: flex;
         flex-direction: column;
-        width: 867px;
+        width: 1171px;
         align-items: center;
         gap: 32px;
         position: relative;
@@ -4147,7 +4153,8 @@
 
     .jampa-web .vector {
         flex: 1;
-        width: 561.92px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .jampa-web .img-wrapper {
@@ -4163,7 +4170,8 @@
 
     .jampa-web .img {
         flex: 1;
-        width: 303.47px;
+        width: 100%;
+        max-width: 100%;
         transform: rotate(-180deg);
     }
 
@@ -4183,11 +4191,12 @@
         align-items: center;
         justify-content: center;
         gap: 64px;
-        padding: 64px 545px;
+        padding: 64px 288px;
         position: relative;
         align-self: stretch;
         width: 100%;
         flex: 0 0 auto;
+        box-sizing: border-box;
     }
 
     .jampa-web .frame-4 {
@@ -4310,7 +4319,7 @@
         display: flex;
         flex-direction: column;
         width: 343px;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         gap: 21px;
         position: absolute;
@@ -4375,7 +4384,17 @@
         left: 0;
         height: 323px;
         object-fit: cover;
-        object-position: top center;
+        object-position: center top;
+    }
+
+    /* Oshrat - portrait image, show mid-upper crop matching Figma */
+    .jampa-web .frame-6 .young-woman-looking {
+        object-position: center 44%;
+    }
+
+    /* Eden - landscape image, shift right to show face */
+    .jampa-web .frame-11 .young-woman-looking {
+        object-position: 65% top;
     }
 
     .jampa-web .title-wrapper {
@@ -4405,7 +4424,7 @@
         display: flex;
         flex-direction: column;
         width: 343px;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         gap: 21px;
         position: absolute;
@@ -4447,7 +4466,7 @@
         display: flex;
         flex-direction: column;
         width: 343px;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         gap: 21px;
         position: absolute;
