@@ -4347,7 +4347,7 @@
     .jampa-web .frame-8 {
         display: flex;
         flex-direction: column;
-        width: 131px;
+        width: auto;
         align-items: flex-end;
         position: relative;
         flex: 0 0 auto;
@@ -4370,7 +4370,6 @@
     .jampa-web .title-8 {
         position: relative;
         width: fit-content;
-        margin-left: -6.00px;
         font-family: "Rubik", Helvetica;
         font-weight: 400;
         color: var(--text);
@@ -4394,6 +4393,7 @@
     /* Oshrat - portrait image, show mid-upper crop matching Figma */
     .jampa-web .frame-6 .young-woman-looking {
         object-position: center 44%;
+        left: -20px;
     }
 
     /* Eden - landscape image, shift right to show face */
