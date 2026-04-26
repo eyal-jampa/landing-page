@@ -4288,7 +4288,8 @@
         top: 20px;
         left: 870px;
         width: 658px;
-        height: 325px;
+        height: auto;
+        min-height: 325px;
     }
 
     .jampa-web .rectangle {
@@ -4296,7 +4297,8 @@
         top: 68px;
         left: 0;
         width: 658px;
-        height: 257px;
+        height: calc(100% - 68px);
+        min-height: 257px;
         background-color: var(--purple-05);
         border-radius: 17px;
         border: 1px solid;
@@ -4394,7 +4396,8 @@
         top: 630px;
         left: 430px;
         width: 658px;
-        height: 325px;
+        height: auto;
+        min-height: 325px;
     }
 
     .jampa-web .frame-10 {
@@ -4436,7 +4439,8 @@
         top: 330px;
         left: 20px;
         width: 658px;
-        height: 325px;
+        height: auto;
+        min-height: 325px;
     }
 
     .jampa-web .frame-12 {
